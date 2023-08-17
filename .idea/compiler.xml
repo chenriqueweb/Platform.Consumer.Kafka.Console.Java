@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Platform.Consumer.Kafka.Api.Java" />
+        <module name="Console" />
         <module name="Platform.Consumer.Kafka.Java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Platform.Consumer.Kafka.Console" target="10" />
+    </bytecodeTargetLevel>
   </component>
 </project>

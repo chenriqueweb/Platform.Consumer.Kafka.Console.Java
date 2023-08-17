@@ -1,4 +1,4 @@
-package br.via.com.consumer.api;
+package br.com.via.consumer.console;
 
 import br.com.via.consumer.config.KafkaConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -39,3 +39,4 @@ public class Consumer {
         }
     }
 }
+
