@@ -1,2 +1,2 @@
-# Platform.Consumer.Kafka.Api.Java
-Projeto Exemplo de uma API Consumindo um topico Kafka
+# Platform Consumer Kafka Console em Java
+Projeto Exemplo de uma aplicação Console Consumindo um topico Kafka
