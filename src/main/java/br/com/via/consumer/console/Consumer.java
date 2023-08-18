@@ -17,7 +17,7 @@ public class Consumer {
     @Autowired
     KafkaConsumerConfig kafkaConsumerConfig;
 
-    public static void main(String[] args) throws IOException {
+    public static void main() throws IOException {
 
         // Teste 1 - Topico com uma unica particao - compras.do.cliente
         var consumer = new KafkaConsumer<String, String>(propertiesConsumer());
