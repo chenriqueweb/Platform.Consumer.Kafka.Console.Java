@@ -5,8 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.via</groupId>
-    <artifactId>Platform.Consumer.Kafka.Console.Java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>platform-consumer-kafka-console-java</artifactId>
+    <name>platform-consumer-kafka-console-java</name>
+    <version>0.0.1</version>
+    <description>Projeto - Consumer Kafka Console em Java</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,10 +22,12 @@
             <version>6.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+        
+        <!-- Platform -->
         <dependency>
-            <groupId>groupId</groupId>
-            <artifactId>Platform.Consumer.Kafka.Java</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>br.com.via</groupId>
+            <artifactId>platform-consumer-kafka-java</artifactId>
+            <version>0.0.1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
