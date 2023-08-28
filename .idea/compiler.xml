@@ -2,16 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Console" />
-        <module name="Platform.Consumer.Kafka.Java" />
+        <module name="platform-consumer-kafka-java" />
+        <module name="platform-consumer-kafka-console-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Platform.Consumer.Kafka.Console" target="10" />
+      <module name="Platform.Consumer.Kafka.Console.Java" target="17" />
+      <module name="Platform.Consumer.Kafka.Java" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>
